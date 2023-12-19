@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Cognofauna - Login</title>
+</head>
+<body>
+        <section class="telas">
+            <div class="container-telas">
+                <h1>LOGIN</h1>
+                <div class="dados">
+                    <label for="usuario">E-MAIL:</label>
+                    <input type="text" placeholder="exemplo@professor.com" id="email" required>
+                </div>
+                <div class="dados">
+                    <label for="senha">SENHA:</label>
+                    <input type="password" placeholder="*******" id="password" required>
+                </div>
+                <div class="botoes">
+                    <div class="botoes-log">
+                        <input type="button" value="Login" onclick="login()">
+                    </div>
+                    <div class="botoes-log">
+                        <a href="cadastrarProfessor.html"><input type="button" value="Cadastrar"></a>
+                    </div>
+                </div>
+                <div class="botao-reseta">
+                    <a href="#">Esqueceu sua senha? </a>
+                </div>
+            </div>
+        </section>
+
+    <!--JS-->
+    <script src="https://accounts.google.com/gsi/client" async></script>
+    <script src="https://unpkg.com/jwt-decode/build/jwt-decode.js"></script>
+    <script src ="../javascript/logar.js"></script>
+</body>
+</html>
