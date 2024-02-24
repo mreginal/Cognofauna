@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cognofauna</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="main.html">COGNOFAUNA</a>
+    <nav class="navbar">
+        <a href="main.html">Início</a>
+        <a href="contato.html">Sair</a>
+    </nav>
+</header>
+
+  <section class="telas">
+    <div class="container-telas">
+      <div class="instrucao-txt">
+        <h1>LEVE A GIRAFA GRANDE À ÁRVORE GRANDE</h1>
+      </div>
+      <div class="alternativas-girafa">
+        <img id="imagem1" src="../imagens/animais/girafa.png" draggable="true" ondragstart="drag(event)" class="draggable">
+        <img id="imagem2" src="../imagens/animais/arvore.png" ondrop="drop(event, 'imagem2')" ondragover="allowDrop(event)" class="dropzone">
+        <br>
+        <img id="imagem3" src="../imagens/animais/girafa.png" draggable="true" ondragstart="drag(event)" class="draggable">
+        <img id="imagem4" src="../imagens/animais/arvore.png" ondrop="drop(event, 'imagem4')" ondragover="allowDrop(event)" class="dropzone">
+        <br>
+        <img id="imagem5" src="../imagens/animais/tartaruga.png" style="display: none;">
+        <img id="imagem6" src="../imagens/animais/coelho.png" style="display: none;">
+        <img id="imagem7" src="../imagens/animais/baleia.png" style="display: none;">
+        <img id="imagem8" src="../imagens/animais/raposa.png" style="display: none;">
+      </div>
+    </div>
+  </section>
+
+  <script src="../javascript/girafaArvore.js"></script>
+</body>
+</html>
