@@ -1,2 +1,2 @@
 # Cognofauna
-Projeto de Pesquisa - Faculdade (TCC)
+Versão antiga - Projeto de Pesquisa
